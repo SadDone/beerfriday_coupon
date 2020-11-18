@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Akrobat';
+    src: local('Akrobat ExtraBold'), local('Akrobat-ExtraBold'), url('./fonts/Akrobatextrabold.woff2') format('woff2'), url('./fonts/Akrobatextrabold.woff') format('woff'), url('./fonts/Akrobatextrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akrobat';
+    src: local('Akrobat Bold'), local('Akrobat-Bold'), url('./fonts/Akrobatbold.woff2') format('woff2'), url('./fonts/Akrobatbold.woff') format('woff'), url('./fonts/Akrobatbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: #000000;
+    width: 375px;
+}
+
+.intro {
+    width: 100%;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 91%;
+    color: #FFFFFF;
+}
+
+.coupon-bg {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #FFF;
+    margin-top: -60px;
+}
+
+.coupon-bg img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    /* margin-top: -60px; */
+}
+
+.coupon-bg .coupon-description {
+    text-align: center;
+    font-family: Akrobat;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+.footer .description-top h1 {
+    font-family: Akrobat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    /* line-height: 160%; */
+    /* or 102px */
+    text-align: center;
+
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.footer .description-top h2 {
+    font-family: Akrobat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    /* line-height: 160%; */
+    /* or 102px */
+    
+    text-align: center;
+    margin-top: 0;
+}
+
+.footer .description-top h2 span {
+    color: #E2000F;
+}
+
+.footer .description-bottom {
+    font-family: Akrobat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 120%;
+    /* or 24px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.footer .rules {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 120%;
+    /* or 8px */
+
+    text-align: justify;
+
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.footer .notification-bg {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+/* @media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+} */
+
